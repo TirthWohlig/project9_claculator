@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&family=Recursive:wght@300;400&display=swap');
+
+* {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Recursive', sans-serif;
+}
+
+body {
+    margin: 50px;
+    background-color: #b7dcff;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    background-color: #fff;
+    outline: none;
+    height: 30px;
+    border-radius: 6px;
+    text-align: start;
+}
+
+button {
+    background-color: #eee;
+    height: 30px;
+    width: 30px;
+}
+
+.btn {
+    display: grid;
+    grid-template-rows: repeat(4, 5vw);
+    grid-template-columns: repeat(4, 5vw);
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+}
+
+.bnt {
+    background-color: #eee;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000;
+    margin-top: 23px;
+    text-align: start;
+
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.container {
+    margin-top: 160px;
+}
